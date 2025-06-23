@@ -5,7 +5,7 @@ The sample database is the Chinook database written in SQLite. Details of the Ch
 ## Preliminary Data Querying
 We begin with something simple. Produce a table with basic track details.
 ```
-SELECT Track.Name AS "Track", Album.Name AS "Album", Artist.Name AS "Artist"
+SELECT Track.Name AS "Track", Album.Title AS "Album", Artist.Name AS "Artist"
 FROM ((Track
 INNER JOIN Album
 ON Track.AlbumId = Album.AlbumId)
