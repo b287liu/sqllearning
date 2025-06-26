@@ -24,4 +24,6 @@ CASE
 	ELSE CONCAT((Track.Milliseconds/60000), ":", (Track.Milliseconds/1000)%60)
 END
 ```
-This fixes the readability of the time, and we can add it to the query, aliasing it as "Time"
+This fixes the readability of the time, and we can add it to the query, aliasing it as "Time".
+
+
